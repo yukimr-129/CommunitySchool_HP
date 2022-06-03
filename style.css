@@ -85,7 +85,7 @@ section ul, aside ul {
 }
     
 section ol {
-    list-style-type: decimal;
+    list-style-type: lower-alpha;
 }
 
 nav ul {
@@ -99,7 +99,7 @@ h1 {
 section h2 + p {
     text-indent: 20px;
 }
-    
+
 a {
     outline: none;
 }
@@ -128,10 +128,9 @@ a:active {
     
 nav a {
     width: 100%;
-    outline: none;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 7%;
+    margin-bottom: 15px;
     text-align: center;
     line-height: 4;
     border: 1px solid #a66;
@@ -139,6 +138,7 @@ nav a {
     
 a[href^="http"] {
     background: url("external-link-52.png") no-repeat 100% 0;
-    background-size: 16px 16px;
+    background-size: 15px 15px;
+    background-position: bottom 3px right 0;
     padding-right: 18px;
 }
